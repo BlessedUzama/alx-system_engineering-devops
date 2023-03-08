@@ -11,3 +11,4 @@ rmdir deletes directory
 cd .. changes directory to the previous one
 ls -la lists files in long format
 file shows the file format
+in creates a symbolic link
