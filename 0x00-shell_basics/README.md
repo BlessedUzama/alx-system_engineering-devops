@@ -7,3 +7,4 @@ ls -al can also list files aphabetically
 mkdir creates a directory
 mv moves a file or directory
 rm deletes file
+rmdir deletes directory
