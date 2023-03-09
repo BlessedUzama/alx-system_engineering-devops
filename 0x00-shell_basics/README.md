@@ -14,3 +14,4 @@ file shows the file format
 in creates a symbolic link
 cp -u *.html .. copys all html files from current directory to the parent directory
 mv [[upper]]* moves files biginning with capital letter
+rm *~ removes all the files in the current dir
