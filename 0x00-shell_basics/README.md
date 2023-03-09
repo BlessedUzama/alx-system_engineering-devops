@@ -16,3 +16,4 @@ cp -u *.html .. copys all html files from current directory to the parent direct
 mv [[upper]]* moves files biginning with capital letter
 rm *~ removes all the files in the current dir
 mkdir -p creates dir inside dir
+ls -am lists files with a comma
