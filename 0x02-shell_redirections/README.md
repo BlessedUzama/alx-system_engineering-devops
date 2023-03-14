@@ -9,3 +9,4 @@ echo 'best school' >> \*\'Best School\'\*$\?\*\*\*\*\*:) creates a file containi
 ls -la > ls_cwd_content writes the listed files gotten from ls -la into the file ls_cwd_content
 tail -n 1 iacta iacta duplicates the last line
 rm *.js deletes all js files in the current working directory
+ls -1Ra counts the number of directories and subdirectoriea
