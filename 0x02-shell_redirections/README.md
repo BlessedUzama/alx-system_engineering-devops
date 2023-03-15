@@ -20,3 +20,8 @@ grep ^[a-zA-Z] /etc/ssh/sshd_config display lines starting with a character
 tr Ac Ze Replace all characters A and c from input to Z and e respectively
 tr -d Cc removes all letters c and C from input
 rev reverses text input
+find . -empty -printf "%f\n"  finds all empty files and directories in the current directory and all sub-directories
+find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev | LC_ALL=C sort -f lists all the files with a .gif extension in the current directory and all its sub-directories.
+cut -c 1 | paste -s -d '' decodes acrostics that use the first letter of each line.
+tail -n +2 | cut -f -1 | sort -k 1 | uniq -c | sort -rnk 1 | head -n 11 | rev | cut -d ' ' -f -1 | rev 
+Write a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
