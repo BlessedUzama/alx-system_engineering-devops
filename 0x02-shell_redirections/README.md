@@ -14,3 +14,4 @@ ls -t | head -n 10 list the files in a directory according to the time they were
 sort | uniq -u takes a list of words as input and prints only words that appear exactly once
 grep -l root /etc/passwd displays the lines containing root
 grep -c bin /etc/passwd displays the number of lines that contain the pattern bin in the file /etc/passwd
+grep A- 3 root /etc/passwd Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd
